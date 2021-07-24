@@ -1,0 +1,80 @@
+[
+  {
+    "title": "Card details",
+    "active": true,
+    "type": "card",
+    "transactions": [
+      {
+        "type": "storage",
+        "amount": "+ S$ 150",
+        "title": "Hamleys",
+        "date": "20 May 2020",
+        "action": "Refund on debit card",
+        "refund": true
+      },
+      {
+        "type": "flight",
+        "amount": "- S$ 50",
+        "title": "Hamleys",
+        "date": "20 May 2020",
+        "action": "Charged to debit card",
+        "refund": false
+      },
+      {
+        "type": "megaphone",
+        "amount": "- S$ 150",
+        "title": "Hamleys",
+        "date": "20 May 2020",
+        "action": "Charged to debit card",
+        "refund": false
+      },
+      {
+        "type": "storage",
+        "amount": "- S$ 250",
+        "title": "Hamleys",
+        "date": "20 May 2020",
+        "action": "Charged to debit card",
+        "refund": false
+      }
+    ]
+  },
+  {
+    "title": "Transaction details",
+    "active": false,
+    "type": "transaction",
+    "transactions": [
+      {
+        "type": "flight",
+        "amount": "+ S$ 150",
+        "title": "Hamleys",
+        "date": "20 May 2020",
+        "action": "Refund on debit card",
+        "refund": true
+      },
+      {
+        "type": "storage",
+        "amount": "- S$ 50",
+        "title": "Hamleys",
+        "date": "20 May 2020",
+        "action": "Charged to debit card",
+        "refund": false
+      },
+      {
+        "type": "megaphone",
+        "amount": "+ S$ 150",
+        "title": "Hamleys",
+        "date": "20 May 2020",
+        "action": "Refund on debit card",
+        "refund": true
+      },
+      {
+        "type": "storage",
+        "amount": "- S$ 250",
+        "title": "Hamleys",
+        "date": "20 May 2020",
+        "action": "Charged to debit card",
+        "refund": false
+      }
+    ]
+  }
+]

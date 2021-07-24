@@ -1,0 +1,32 @@
+<template>
+  <div id="app-content">
+    <nuxt /></div
+></template>
+<script>
+export default {};
+</script>
+<style lang="scss">
+html {
+  font-size: 10px;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+</style>
