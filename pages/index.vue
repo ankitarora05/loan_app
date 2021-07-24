@@ -8,7 +8,7 @@
       <div class="header-bar">
         <div></div>
         <div class="logo-container">
-          <img src="~assets/images/logo.svg" alt="logo" />
+          <img src="~assets/images/Logo.svg" alt="logo" />
         </div>
       </div>
       <div class="desk-app-nav">
