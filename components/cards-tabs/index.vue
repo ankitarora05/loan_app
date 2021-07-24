@@ -29,7 +29,7 @@
         <slide>
           <div class="VueCarousel-slide-color-green">
             <div class="card-type-header">
-              <img src="~assets/images/logo_card.svg" alt="logo_card" />
+              <img src="~assets/images/Logo_card.svg" alt="logo_card" />
             </div>
             <div class="card-type-name">Mark Henry</div>
             <div class="card-type-number">•••• •••• •••• <span>2020</span></div>
@@ -45,7 +45,7 @@
         <slide>
           <div class="VueCarousel-slide-color-purple">
             <div class="card-type-header">
-              <img src="~assets/images/logo_card.svg" alt="logo_card" />
+              <img src="~assets/images/Logo_card.svg" alt="logo_card" />
             </div>
             <div class="card-type-name">Billy Jean</div>
             <div class="card-type-number">•••• •••• •••• <span>2020</span></div>
@@ -61,7 +61,7 @@
         <slide>
           <div class="VueCarousel-slide-color-blue">
             <div class="card-type-header">
-              <img src="~assets/images/logo_card.svg" alt="logo_card" />
+              <img src="~assets/images/Logo_card.svg" alt="logo_card" />
             </div>
             <div class="card-type-name">Dylan Postl</div>
             <div class="card-type-number">•••• •••• •••• <span>2020</span></div>
