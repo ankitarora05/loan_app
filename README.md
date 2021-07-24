@@ -3,6 +3,7 @@
 ## Build Setup
 
 ```bash
+# git clone https://github.com/ankitarora05/loan_app.git
 # install dependencies
 $ npm install
 
