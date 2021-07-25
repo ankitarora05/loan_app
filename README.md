@@ -2,6 +2,8 @@
 
 [Live Demo](https://eloquent-goldwasser-153256.netlify.app/)
 
+[Admin](https://eloquent-goldwasser-153256.netlify.app/admin)
+
 ## Build Setup
 
 ```bash
