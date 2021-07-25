@@ -1,18 +1,11 @@
 <template>
   <div class="aspire-main">
     <div class="aspire-main-wrapper">
-      <div class="mob-app-nav">
-        <AppNav></AppNav>
-      </div>
-
       <div class="header-bar">
         <div></div>
         <div class="logo-container">
           <img src="~assets/images/Logo.svg" alt="logo" />
         </div>
-      </div>
-      <div class="desk-app-nav">
-        <AppNav></AppNav>
       </div>
       <div class="custom-wrapper">
         <div class="arpire-account-info-wrapper">
@@ -55,6 +48,7 @@
           <div class="component-left">
             <CardsTabs></CardsTabs>
             <CardAction></CardAction>
+            <div class="apply-loan-desk"><ApplyLoan></ApplyLoan></div>
           </div>
           <div class="card-accord-wrapper-desk component-right">
             <CardAccord></CardAccord>
@@ -65,6 +59,7 @@
     <div class="card-accord-wrapper-mob">
       <CardAccord></CardAccord>
     </div>
+    <div class="apply-loan-mob"><ApplyLoan></ApplyLoan></div>
   </div>
 </template>
 
@@ -73,12 +68,14 @@ import CardsTabs from "../components/cards-tabs";
 import CardAction from "../components/card-actions";
 import AppNav from "../components/app-nav";
 import CardAccord from "../components/card-transactions";
+import ApplyLoan from "../components/apply-loan";
 export default {
   components: {
     CardsTabs,
     CardAction,
     AppNav,
-    CardAccord
+    CardAccord,
+    ApplyLoan
   },
   data() {
     return {
@@ -181,6 +178,9 @@ export default {
     }
   }
 }
+.apply-loan-mob {
+  margin-bottom: 10rem;
+}
 @media (min-width: 1281px) {
   .custom-wrapper {
     flex: 1;
@@ -229,6 +229,12 @@ export default {
     display: block;
   }
   .mob-app-nav {
+    display: none;
+  }
+  .card-tabs-item {
+    color: #222222;
+  }
+  .apply-loan-mob {
     display: none;
   }
 }
@@ -283,6 +289,12 @@ export default {
   .mob-app-nav {
     display: none;
   }
+  .card-tabs-item {
+    color: #222222;
+  }
+  .apply-loan-mob {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -333,6 +345,12 @@ export default {
     display: block;
   }
   .mob-app-nav {
+    display: none;
+  }
+  .card-tabs-item {
+    color: #222222;
+  }
+  .apply-loan-mob {
     display: none;
   }
 }
@@ -387,6 +405,12 @@ export default {
   .mob-app-nav {
     display: none;
   }
+  .card-tabs-item {
+    color: #222222;
+  }
+  .apply-loan-mob {
+    display: none;
+  }
 }
 
 @media (min-width: 400px) and (max-width: 767px) {
@@ -421,6 +445,12 @@ export default {
     }
   }
   .desk-app-nav {
+    display: none;
+  }
+  .card-tabs-item {
+    color: #ffffff;
+  }
+  .apply-loan-desk {
     display: none;
   }
 }
@@ -459,6 +489,12 @@ export default {
   .desk-app-nav {
     display: none;
   }
+  .card-tabs-item {
+    color: #ffffff;
+  }
+  .apply-loan-desk {
+    display: none;
+  }
 }
 
 @media (max-width: 320px) {
@@ -493,6 +529,12 @@ export default {
     }
   }
   .desk-app-nav {
+    display: none;
+  }
+  .card-tabs-item {
+    color: #ffffff;
+  }
+  .apply-loan-desk {
     display: none;
   }
 }

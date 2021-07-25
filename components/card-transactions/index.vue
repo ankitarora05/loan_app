@@ -134,7 +134,6 @@ export default {
 .card-transaction-accord {
   width: 366px;
   margin: 2rem auto;
-  margin-bottom: 10rem;
   .card-transaction-accord-wrapper {
     margin: 2rem;
     .card-transaction-accord-item {

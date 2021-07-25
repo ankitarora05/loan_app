@@ -1,18 +1,5 @@
 <template>
   <div class="cards-tabs-wrapper">
-    <!-- <div class="card-tabs-container">
-      <div
-        :class="
-          tabs.active ? 'card-tabs-item card-tabs-active' : 'card-tabs-item'
-        "
-        v-for="(tabs, idx) in tabTypes"
-        :key="idx"
-        @click="toggleActive(idx)"
-      >
-        {{ tabs.title }}
-      </div>
-    </div> -->
-
     <div class="cards-carousel-wrapper">
       <div class="card-details-action">
         <div></div>
@@ -115,21 +102,7 @@ export default {
   font-size: 1.4rem;
   color: #ffffff;
 }
-.card-tabs-container {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  .card-tabs-item {
-    margin: 2rem;
-    font-size: 1.3rem;
-    padding-bottom: 0.5rem;
-    cursor: pointer;
-  }
-  .card-tabs-active {
-    border-bottom: 2px solid #23cefd;
-    font-weight: bold;
-  }
-}
+
 .cards-carousel-wrapper {
   max-width: 380px;
   display: inline-block;
@@ -256,27 +229,6 @@ export default {
   .VueCarousel {
     padding: 2rem;
   }
-  .card-tabs-item {
-    color: #222222;
-  }
-}
-
-@media (min-width: 1025px) and (max-width: 1280px) {
-  .card-tabs-item {
-    color: #222222;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-  .card-tabs-item {
-    color: #222222;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  .card-tabs-item {
-    color: #222222;
-  }
 }
 
 @media (min-width: 400px) and (max-width: 767px) {
@@ -285,9 +237,6 @@ export default {
   }
   .cards-carousel-wrapper {
     width: 100%;
-  }
-  .card-tabs-item {
-    color: #ffffff;
   }
 }
 
@@ -298,9 +247,6 @@ export default {
   .cards-carousel-wrapper {
     width: 100%;
   }
-  .card-tabs-item {
-    color: #ffffff;
-  }
 }
 
 @media (max-width: 320px) {
@@ -309,9 +255,6 @@ export default {
   }
   .cards-carousel-wrapper {
     width: 100%;
-  }
-  .card-tabs-item {
-    color: #ffffff;
   }
 }
 </style>

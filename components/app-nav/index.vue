@@ -11,7 +11,7 @@
             <li>
               <img src="~assets/images/Logo_other.svg" alt="Logo nav" /> Home
             </li>
-            <li class="active-nav">
+            <li class="active-nav" @click="redirectHome()">
               <img src="~assets/images/pay.svg" alt="pay" /> Cards
             </li>
             <li>
@@ -37,7 +37,12 @@
           <div class="app-mobile-nav-image">
             <img src="~assets/images/pay.svg" alt="pay" />
           </div>
-          <div class="app-mobile-nav-title app-mobile-nav-active">Cards</div>
+          <div
+            class="app-mobile-nav-title app-mobile-nav-active"
+            @click="redirectHome()"
+          >
+            Cards
+          </div>
         </div>
         <div class="app-mobile-nav-item">
           <div class="app-mobile-nav-image">
@@ -62,7 +67,13 @@
   </div>
 </template>
 <script>
-export default {};
+export default {
+  methods: {
+    redirectHome() {
+      this.$router.push("/");
+    }
+  }
+};
 </script>
 <style lang="scss">
 .app-nav-wrapper {
