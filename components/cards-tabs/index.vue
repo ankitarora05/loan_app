@@ -248,7 +248,7 @@ export default {
   .VueCarousel-dot--active {
     width: 20px !important;
     height: 10px !important;
-    border-radius: 10px;
+    border-radius: 10px !important;
   }
 }
 
